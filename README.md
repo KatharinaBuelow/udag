@@ -1,6 +1,7 @@
 Welcome to DEUTSCHLAND ENSEMBLE:
 
-The german weater service has two ensembles
+The german weater service has two ensembles.
+
 Stored locally on levante:
 
 cmip6-foreced Ensemble:
@@ -12,7 +13,15 @@ cmip5-forced-Ensemble:
 	/work/ch0636/eddy/pool/sims/DATEN_DEUTSCHLAND/ESGF_ClimatePredictionsDE
 
 
-## Indexcalculation
+## Index Calculation
+To work with index_calculation, we had to fix the naming of the files
+	
+	rename.py
+	rename_cmip6.py
+	rename_tas.py
+	start_rename.sh
+	start_rename_cmip6.sh
+	start_rename_tas.sh
 
 ### Catalogue
 
@@ -24,11 +33,27 @@ The catalogues for each ensemble are stored here:
 
 Katharinas environment : indexcalculation13 (you just need to install index_calculation from gitlab in python3.13)
 
-
+	index_calculation -p CORDEX-CMIP6 create_scripts -idx TG -intake /work/ch0636/g300047/UDAG/index_calculation/catalogue6/CORDEX-CMIP6.json -scrpt_dir /scratch/g/g300047/index_calculation -out_dir /work/ch0636/g300047/UDAG/index_calculation -ofreq year -submit
 
 To run index_calculation, this should be consistend , best would be all pr
 
-Patha: /pr/prAdjustInterp
 
-Variable: prAdjustInterp
+## Einzugsgebiete:
+
+Shape files are in the directory:
+
+We need
+ * EF: Ostfriesland
+ * TSA: Sachsenanhalt
+ * Deutschland
+ 
+ Zeitscheibe:
+ 
+ 	1971-2000
+ 	2040-2069
+ 	2070-2099
+
+ Season, annual, 
+ Change tas, pr [%]
+
 
