@@ -35,12 +35,15 @@ Katharinas environment : indexcalculation13 (you just need to install index_calc
 
 	index_calculation -p CORDEX-CMIP6 create_scripts -idx TG -intake /work/ch0636/g300047/UDAG/index_calculation/catalogue6/CORDEX-CMIP6.json -scrpt_dir /scratch/g/g300047/index_calculation -out_dir /work/ch0636/g300047/UDAG/index_calculation -ofreq year -submit
 
-To run index_calculation, this should be consistend , best would be all pr
+#### Results:
+
+	/work/ch0636/g300047/UDAG/index_calculation
 
 
 ## Einzugsgebiete:
 
 Shape files are in the directory:
+/work/ch0636/g300047/UDAG/shapefiles
 
 We need
  * EF: Ostfriesland
