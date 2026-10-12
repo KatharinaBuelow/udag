@@ -45,6 +45,16 @@ Katharinas environment : indexcalculation13 (you just need to install index_calc
 Shape files are in the directory:
 /work/ch0636/g300047/UDAG/shapefiles
 
+create environment from cfworld.yml
+
+	conda env create -f cfworld.yml
+
+Look at shapefile with:
+
+	read_shapefile.ipynb
+	
+	
+
 We need
  * EF: Ostfriesland
  * TSA: Sachsenanhalt
