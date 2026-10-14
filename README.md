@@ -43,23 +43,31 @@ Katharinas environment : indexcalculation13 (you just need to install index_calc
 ## Einzugsgebiete:
 
 Shape files are in the directory:
-/work/ch0636/g300047/UDAG/shapefiles
 
-create environment from cfworld.yml
+Shapefiles_Nukleus
 
-	conda env create -f cfworld.yml
+create environment from geo.yml
+
+	conda env create -f geo.yml
 
 Look at shapefile with:
 
 	read_shapefile.ipynb
 	
 	
+Für die Paper hatten wir genutzt:
 
-We need
- * EF: Ostfriesland
- * TSA: Sachsenanhalt
- * Deutschland
- 
+	Wakos_Festland
+	Duisburg_3x3
+	IAWAK-EE	
+	Klimakonform
+	ISAP
+	KARE
+
+File:
+
+	udag_regions.shp
+
  Zeitscheibe:
  
  	1971-2000
