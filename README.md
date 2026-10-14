@@ -57,9 +57,9 @@ Look at shapefile with:
 	
 Für die Paper hatten wir genutzt:
 
-	Wakos_Festland
+	Wakos_Festland (Martina: Ostfriesland)
 	Duisburg_3x3
-	IAWAK-EE	
+	IAWAK-EE (Martina TSA: Türingen, Sachen Anhalt, Sachen  oder Weiße Elster)
 	Klimakonform
 	ISAP
 	KARE
