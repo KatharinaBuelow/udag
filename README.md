@@ -77,4 +77,16 @@ File:
  Season, annual, 
  Change tas, pr [%]
 
+# BOX PLOTS
+To create the box plots, first the results from climate fact data need to sorted and merged, which is done
+
+	Make_box_plot.ipynb
+	this is usinging
+	udag_tool.py
+
+
+ # OPEN:
+ 
+ Working with CMIP6 forced data, there might be a mistake in the Metadata: check !
+
 
