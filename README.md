@@ -77,4 +77,8 @@ File:
  Season, annual, 
  Change tas, pr [%]
 
+ # OPEN:
+ 
+ Working with CMIP6 forced data, there might be a mistake in the Metadata: check !
+
 
